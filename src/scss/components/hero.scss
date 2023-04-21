@@ -1,0 +1,23 @@
+.hero-heading {
+    font-size: 64px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.mainHeroContainer {
+    max-width: $max-content-width;
+    margin: 0 auto;
+    background-color: yellow;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contactUsButton {
+    background-color: aqua;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}

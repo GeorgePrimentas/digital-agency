@@ -1,0 +1,48 @@
+// .desktopHeader {
+//     background-color: green;
+//     color: white;
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// ul {
+//     list-style-type: none;
+//     display: flex;
+//     flex-direction: row;
+//   }
+
+//   li {
+//     justify-content: space-around;
+//   }
+.desktopHeader {
+    background-color: $background-color;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    max-width: $max-content-width;
+    
+}
+
+.home-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
