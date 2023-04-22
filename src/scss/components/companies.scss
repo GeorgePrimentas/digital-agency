@@ -1,0 +1,24 @@
+.companiesContainer {
+    max-width: $max-content-width * 0.85;
+    margin: 0px auto;
+    background-color: #F6F6F;
+}
+
+.logosContainer {
+    max-width: $max-content-width * 0.85;
+    margin: 0px auto;
+    background: #F6F6F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logosGroup {
+    width: $max-content-width * 0.80;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

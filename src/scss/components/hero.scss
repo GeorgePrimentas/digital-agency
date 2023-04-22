@@ -7,17 +7,20 @@
 .mainHeroContainer {
     max-width: $max-content-width;
     margin: 0 auto;
-    background-color: yellow;
+    // background-color: yellow;
     text-align: left;
     display: flex;
     justify-content: space-between;
-
 }
 
 .contactUsButton {
-    background-color: aqua;
-    width: 120px;
-    height: 40px;
-    border-radius: 10px;
+    background-color: #8EADD5;;
+    width: 167px;
+    height: 48px;
+    border-radius: 8px;
     font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0px;
+    font-weight: 600;
 }

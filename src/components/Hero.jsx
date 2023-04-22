@@ -3,7 +3,7 @@ import BusinessPeople from "./../images/BusinessPeople.png"
 
 const Hero = ()=>{
     return (
-        <div>
+        // <div> This pair of divs really doesn't make any difference (21 Apr 2023)
             <div className="mainHeroContainer">
                 <div className="textColumn">
                 <h1 className="hero-heading">Building digital products, brands & experience</h1>
@@ -14,7 +14,7 @@ const Hero = ()=>{
                     <img src={BusinessPeople} />
                 </div>
             </div>
-        </div>
+        // </div>
 
     )
 }
